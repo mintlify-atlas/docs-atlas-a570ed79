@@ -1,0 +1,86 @@
+{
+  "projectType": "frontend",
+  "projectName": "PokemonApp",
+  "projectDescription": "React web application for exploring Pokémon with infinite scrolling and detailed statistics",
+  "theme": "palm",
+  "primaryColor": "#e92424",
+  "lightColor": "#110c0c",
+  "darkColor": "#e2e2e2",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "introduction",
+          "quickstart",
+          "installation"
+        ]
+      },
+      {
+        "group": "Architecture",
+        "pages": [
+          "architecture/overview",
+          "architecture/project-structure",
+          "architecture/data-flow"
+        ]
+      },
+      {
+        "group": "Components",
+        "pages": [
+          "components/card-pokemon",
+          "components/card-grid",
+          "components/header-controls",
+          "components/loading"
+        ]
+      },
+      {
+        "group": "Hooks & Actions",
+        "pages": [
+          "hooks/use-pokemons",
+          "actions/get-pokemons"
+        ]
+      },
+      {
+        "group": "API Integration",
+        "pages": [
+          "api/pokeapi-setup",
+          "api/data-fetching",
+          "api/caching-strategy"
+        ]
+      },
+      {
+        "group": "Features",
+        "pages": [
+          "features/infinite-scroll",
+          "features/search-params",
+          "features/responsive-design"
+        ]
+      },
+      {
+        "group": "Deployment",
+        "pages": [
+          "deployment/firebase-hosting",
+          "deployment/build-configuration"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Infinite scrolling with Intersection Observer",
+    "TanStack Query for data caching and state management",
+    "Material-UI components with custom theming",
+    "Responsive design with mobile menu",
+    "Dynamic search parameters for pagination control",
+    "Firebase hosting deployment"
+  ],
+  "publicApiSurface": [
+    "usePokemons() - Custom hook for Pokémon data fetching",
+    "getPokemonsAction(options) - Action to fetch Pokémon from API",
+    "pokeApi - Configured Axios instance",
+    "CardPokemon - Pokémon card component",
+    "CardGridPokemon - Grid layout component",
+    "HeaderControls - Navigation controls component",
+    "PokemonLayout - Main layout wrapper",
+    "HomePage - Main page with infinite scroll"
+  ]
+}
